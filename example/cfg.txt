@@ -1,0 +1,19 @@
+n		2
+output		example-result
+prefix		exmp
+
+fq		example/datasource/rawreads.fq
+scheme		example/datasource/pools-scheme.txt
+demult		example/datasource/seq_pools_id.fasta
+trseq5		example/datasource/seq_ut.fasta,example/datasource/seq_primers.fasta
+trseq3		example/datasource/seq_back-tails.fasta
+bt2index	example/datasource/reference/ACTA2
+reference	example/datasource/reference/ACTA2_full_DNA.fasta
+regions		example/datasource/regions.bed
+
+org_ploidy	2
+
+time_limit      20000
+tries           100
+noIndels
+gm
