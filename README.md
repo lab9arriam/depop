@@ -1,14 +1,14 @@
-## dePoP - determination of polymorphism carriers from overlapping DNA pools
+## _**dePoP**_ - determination of polymorphism carriers from overlapping DNA pools
 
 ### Overview
 
-dePoP is a pipeline designed for analysis of NGS-sequences of pooled samples. It identifies the carriers of rare Nucleotide Variants (NV) using sequence reads of overlapping pools, a process we called de-pooling. dePoP automatizes de-multiplexing, trimming, mapping, snp-calling of raw NGS-reads and performs de-pooling using s-dePooler - a novel java application.
+_**dePoP**_ is a pipeline designed for analysis of NGS-sequences of pooled samples. It identifies the carriers of rare Nucleotide Variants (NV) using sequence reads of overlapping pools, a process we called de-pooling. _**dePoP**_ automatizes de-multiplexing, trimming, mapping, snp-calling of raw NGS-reads and performs de-pooling using s-dePooler - a novel java application.
 
-dePoP is adapted for work in Linux OS.
+_**dePoP**_ is adapted for work in Linux OS.
 
 ### Installation
 
-The pipeline is Perl-based (Perl v.5) and requires no installation, but the following tools must be present in the $PATH variable:
+The pipeline is Perl-based (Perl v.5) and requires no installation, but the following tools must be present in the **$PATH** variable:
 
 * Bowtie2 ver 2.2 or newer
 * Cutadapt ver 1.8 or newer
