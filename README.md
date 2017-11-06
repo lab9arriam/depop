@@ -6,14 +6,17 @@ dePoP is a pipeline designed for analysis of NGS-sequences of pooled samples. It
 
 dePoP is adapted for work in Linux OS.
 
-Installation
+### Installation
 
-The pipeline is Perl-based (Perl v.5) it requires no installation, but the following tools must be present in the $PATH variable.
+The pipeline is Perl-based (Perl v.5) it requires no installation, but the following tools must be present in the $PATH variable:
 
-Bowtie2 ver 2.2 or newer
-Cutadapt ver 1.8 or newer
-samtools and bcftools ver 1.3 or newer.
+* Bowtie2 ver 2.2 or newer
+* Cutadapt ver 1.8 or newer
+* samtools and bcftools ver 1.3 or newer.
+
 The following tools are included in repository and alternatively can be installed separately and included in pipeline by defined options:
 
-Genome Analysis Toolkit (GATK) .
-s-dePooler These two tools require Java8 to be installed in the system.
+* Genome Analysis Toolkit (GATK) .
+* s-dePooler  
+
+These two tools require Java8 to be installed in the system.
