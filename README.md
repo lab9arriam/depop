@@ -8,7 +8,7 @@ dePoP is adapted for work in Linux OS.
 
 ### Installation
 
-The pipeline is Perl-based (Perl v.5) it requires no installation, but the following tools must be present in the $PATH variable:
+The pipeline is Perl-based (Perl v.5) and requires no installation, but the following tools must be present in the $PATH variable:
 
 * Bowtie2 ver 2.2 or newer
 * Cutadapt ver 1.8 or newer
